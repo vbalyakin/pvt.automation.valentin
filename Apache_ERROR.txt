@@ -1,0 +1,29 @@
+В КОНСОЛИ:
+
+Microsoft Windows [Version 6.3.9600]
+(c) Корпорация Майкрософт (Microsoft Corporation), 2013. Все права защищены.
+
+C:\Windows\system32>c:ServerbinApache24binhttpd.exe -k install
+"c:ServerbinApache24binhttpd.exe" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Windows\system32>c:\Server\bin\Apache24\bin\httpd.exe -k install
+Installing the 'Apache2.4' service
+The 'Apache2.4' service is successfully installed.
+Testing httpd.conf....
+Errors reported here must be corrected before the service can be started.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
+main name, using fe80::9c7b:6413:ab26:41b. Set the 'ServerName' directive global
+ly to suppress this message
+
+C:\Windows\system32>
+
+
+
+ПРИ ЗАПУСКЕ ФАЙЛА httpd.exe:
+
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
+main name, using fe80::9c7b:6413:ab26:41b. Set the 'ServerName' directive global
+ly to suppress this message
+
+ServerName 192.168.100.3 localhost.localdomain localhost
